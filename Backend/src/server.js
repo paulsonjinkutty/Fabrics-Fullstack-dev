@@ -15,7 +15,11 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: [
+        "http://localhost:5173",
+        "https://fabrics-fullstack-dev.vercel.app",
+        "https://fabrics-fullstack-bft1ix4va-paulsonjinkuttys-projects.vercel.app",
+    ],
 }));
 
 app.use("/customers", customerRoutes);
