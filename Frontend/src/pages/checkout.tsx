@@ -12,7 +12,9 @@ import { Link } from "wouter";
 export default function Checkout() {
   const { items, cartTotal, clearCart } = useCart();
   const [, setLocation] = useLocation();
-  const createOrderMutation = useMutation(createOrder);
+  const createOrderMutation = useMutation({
+    mutationFn: createOrder,
+  });
   
   const [formData, setFormData] = useState({
     firstName: "",
@@ -173,10 +175,10 @@ export default function Checkout() {
 
             <Button 
               type="submit" 
-              disabled={createOrderMutation.isLoading}
+              disabled={createOrderMutation.isPending}
               className="w-full h-16 rounded-none bg-primary text-primary-foreground text-base font-bold uppercase tracking-widest hover:bg-primary/90"
             >
-              {createOrder.isPending ? (
+              {createOrderMutation.isPending ? (
                 <><Loader2 className="w-5 h-5 mr-2 animate-spin" /> Processing...</>
               ) : (
                 `Place Order • $${cartTotal.toFixed(2)}`

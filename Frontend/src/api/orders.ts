@@ -1,27 +1,64 @@
 ﻿const API = import.meta.env.VITE_API_URL;
 
-export const createOrder = async (payload: any) => {
-  // payload may be { data: { ... } } from existing callers — support both shapes
-  const body = payload && payload.data ? payload.data : payload;
+export interface OrderItem {
+  id: number;
+  productId: number;
+  productName: string;
+  productImageUrl: string;
+  unitPrice: string;
+  quantity: number;
+  size: string;
+  color: string;
+}
+
+export interface Order {
+  id: number;
+  customerName: string;
+  customerEmail: string;
+  shippingAddress: string;
+  total: string;
+  createdAt: string;
+  items: OrderItem[];
+}
+
+export interface CreateOrderPayload {
+  customerName: string;
+  customerEmail: string;
+  shippingAddress: string;
+  items: {
+    productId: number;
+    quantity: number;
+    size: string;
+    color: string;
+  }[];
+}
+
+export const createOrder = async (
+    payload: { data: CreateOrderPayload } | CreateOrderPayload
+): Promise<Order> => {
+  const body = "data" in payload ? payload.data : payload;
 
   const res = await fetch(`${API}/orders`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type": "application/json",
+    },
     body: JSON.stringify(body),
   });
 
   if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Failed to create order: ${res.status} ${text}`);
+    throw new Error(await res.text());
   }
 
   return res.json();
 };
 
-export const getOrder = async (id: number) => {
+export const getOrder = async (id: number): Promise<Order> => {
   const res = await fetch(`${API}/orders/${id}`);
+
   if (!res.ok) {
-    throw new Error(`Failed to fetch order ${id}`);
+    throw new Error(await res.text());
   }
+
   return res.json();
 };

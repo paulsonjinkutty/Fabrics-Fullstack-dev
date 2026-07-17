@@ -1,15 +1,23 @@
 import { useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import { getOrder } from "@/api";
+import type { Order } from "@/api";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Check, Mail } from "lucide-react";
 
 export default function OrderConfirmation() {
-  const { id } = useParams();
-  
-  const { data: order, isLoading } = useQuery(['order', id], () => getOrder(Number(id)), { enabled: !!id });
 
+
+  const params = useParams<{ id: string }>();
+
+  const id = params.id;
+
+  const { data: order, isPending: isLoading } = useQuery<Order>({
+    queryKey: ["order", id],
+    queryFn: () => getOrder(Number(id)),
+    enabled: !!id,
+  });
   if (isLoading) {
     return (
       <div className="container mx-auto px-4 py-24 max-w-3xl min-h-screen flex flex-col items-center">

@@ -1,4 +1,4 @@
-import { useLocation, useParams } from "wouter";
+import { useParams } from "wouter";
 import { useEffect, useMemo, useState } from "react";
 import { getProducts } from "@/api";
 import { useCart } from "../cart-context";
@@ -8,14 +8,12 @@ import { useToast } from "@/hooks/use-toast";
 import { Link } from "wouter";
 
 export default function ProductDetail() {
-  const params = useParams();
-  const slug = params.slug;
-  const [, setLocation] = useLocation();
-  const { toast } = useToast();
-  const { addItem } = useCart();
-
-  const [selectedSize, setSelectedSize] = useState<string | null>(null);
-  const [selectedColor, setSelectedColor] = useState<string | null>(null);
+    const params = useParams<{ slug: string }>();
+    const slug = params.slug;
+    const { toast } = useToast();
+    const { addItem } = useCart();
+    const [selectedSize, setSelectedSize] = useState<string | null>(null);
+    const [selectedColor, setSelectedColor] = useState<string | null>(null);
 
   // We need to resolve slug to ID. The API expects an ID.
   // First fetch products matching the slug to get the ID.

@@ -1,8 +1,6 @@
-import { useState } from "react";
 import { useLocation } from "wouter";
 import { useCart } from "../cart-context";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { Trash2, ArrowRight, ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
 
