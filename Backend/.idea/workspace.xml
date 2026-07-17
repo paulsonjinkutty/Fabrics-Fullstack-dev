@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1bc4f4c-54db-436d-ab2a-6b44e18ede18" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ersPaulson_g3DesktopFabrics git config --list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../git" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slbackend=schannel" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="39" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.4673954313949755" />
+      <entry key="MS500" value="3.527206917084044" />
+      <entry key="S2" value="5.633339657779616" />
+      <entry key="S5" value="6.3920293211503525" />
+      <entry key="S10" value="6.780641057668509" />
+      <entry key="S30" value="8.802567316223307" />
+      <entry key="S60" value="13.891872989941916" />
+      <entry key="M2" value="27.809162155150357" />
+      <entry key="M5" value="80.96358324259872" />
+      <entry key="M10" value="184.62816826377036" />
+      <entry key="M15" value="271.0285409008686" />
+      <entry key="M30" value="431.565003549226" />
+      <entry key="H1" value="597.0971362777776" />
+      <entry key="H2" value="778.6086592505417" />
+      <entry key="H4" value="945.8109912982047" />
+      <entry key="D1" value="1166.5582308425137" />
+      <entry key="W1" value="1215.4629144693931" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.761055082841515E-309" />
+      <entry key="S5" value="4.6890113332627294E-124" />
+      <entry key="S10" value="2.1654125087988674E-62" />
+      <entry key="S30" value="2.7872775303099335E-21" />
+      <entry key="S60" value="5.2794673313791045E-11" />
+      <entry key="M2" value="7.2659943100576265E-6" />
+      <entry key="M5" value="0.008800716301631085" />
+      <entry key="M10" value="0.09381239019203368" />
+      <entry key="M15" value="0.20653139600642667" />
+      <entry key="M30" value="0.483916133917311" />
+      <entry key="H1" value="1.3657472667061081" />
+      <entry key="H2" value="4.23456497016049" />
+      <entry key="H4" value="8.516430428067702" />
+      <entry key="D1" value="15.850619338907922" />
+      <entry key="W1" value="17.67509522902557" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3953393217919579" />
+      <entry key="MS500" value="3.4555374952761513" />
+      <entry key="S2" value="5.605298888632386" />
+      <entry key="S5" value="6.379620212709971" />
+      <entry key="S10" value="6.774183024373084" />
+      <entry key="S30" value="8.800111085818175" />
+      <entry key="S60" value="13.89009060461905" />
+      <entry key="M2" value="27.80731431172639" />
+      <entry key="M5" value="80.96942227961112" />
+      <entry key="M10" value="184.71756791445603" />
+      <entry key="M15" value="271.2302900563394" />
+      <entry key="M30" value="432.0445305629574" />
+      <entry key="H1" value="598.4589817697785" />
+      <entry key="H2" value="782.8397253870778" />
+      <entry key="H4" value="954.3247639796361" />
+      <entry key="D1" value="1182.4081788425387" />
+      <entry key="W1" value="1233.137906113636" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GZpQUrERXuTrfKBzM1c5dcKnvS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Paulson_g3/Desktop/Fabrics/Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2026.1.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_NAME" value="Fabrics" />
+        <env name="DB_PASSWORD" value="19carefully" />
+        <env name="DB_PORT" value="5432" />
+        <env name="DB_USER" value="postgres" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.26222.58" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1bc4f4c-54db-436d-ab2a-6b44e18ede18" name="Changes" comment="" />
+      <created>1784188933582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784188933582</updated>
+      <workItem from="1784188933897" duration="4259000" />
+      <workItem from="1784196370861" duration="2314000" />
+      <workItem from="1784198809649" duration="1892000" />
+      <workItem from="1784200814036" duration="2395000" />
+      <workItem from="1784265286792" duration="2484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
